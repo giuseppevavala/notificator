@@ -1,0 +1,13 @@
+Dependencies:
+
+	python
+		pip install py-notify
+
+	Mac-Os
+		gem install terminal-notifier
+
+
+Notificator:
+
+	MACOS	terminal-notifier -message "CIAO" -title "Titolo" -open 'http://finance.yahoo.com/q?s=AAPL'
+	LINUX	notify-send 'Hello world!' 'This is an example notification.' --icon=dialog-information
